@@ -1,2 +1,2 @@
 # dgs-gamecode
-code design for teentech
+code design for dgs game
