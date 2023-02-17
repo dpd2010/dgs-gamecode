@@ -1,0 +1,29 @@
+<html>
+<head>
+	<title>Login Page</title>
+    <style>
+        body {
+            background-color: lightblue;
+            padding: 30px;
+        }
+    </style>
+    <script>
+    alert("hello")
+        function checkpassword() {
+    var password = document.getElementById("passwordBox");
+    var passwordText = password.value;
+    if(passwordText == "daksh") {
+        return true;
+    }
+    alert("Incorrect password, try again.")
+    return false;
+}
+    </script>
+</head>
+<body>
+	<p style = "font-size: 30pt;">LOGIN TO PLAY</p>
+    <p>please enter your password to continue to the game</p>
+    <p>password:<input id = "passwordBox" type="password"/></p>
+    <a href="C:\Users\mishdane\dgs-gamecode\game-front-page.html"><button onclick="return checkpassword();">submit</button></a>
+</body>
+</html>
